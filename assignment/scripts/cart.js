@@ -18,11 +18,16 @@ function listItems() {
   }
 }
 
+console.log("contents of array on new line",listItems(basket));
+//test for listItems function
+
 function empty(){
   basket = [];
-  return "basket is empty";
+  return basket;
 }
+console.log("basket has been emptied return undefined:", listItems());
 console.log("What's in the basket?", empty());
 console.log(basket);
 
-//There's no way it was this simple? After spending literal hours on the first two?
+//updated return with basket
+//tested via console listItems, empty functions
